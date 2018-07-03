@@ -1,0 +1,28 @@
+{
+  "name": "wstcp",
+  "version": "1.0.0",
+  "description": "Proxy between websocket and tcp servers",
+  "main": "wstcp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node wstcp"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "optimist": "~0.3.5",
+    "ws": "~0.4.23"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bupumucu/wstcp.git"
+  },
+  "keywords": [
+    "websockets",
+    "ws",
+    "proxy",
+    "tcp"
+  ],
+  "author": "nodejs",
+  "license": "nodejs"
+}
